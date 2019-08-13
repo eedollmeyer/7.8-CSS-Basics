@@ -1,0 +1,50 @@
+body  {
+  font-size: 14px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+/* Body */
+section {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.element {
+  background-color: green;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.example { /* This initially had an h3 element type after it but
+    there are no h3 elements for the example class. I removed the
+    h3 so it would center the example class in the header. */
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.first { /* I added this myself so that the text in the first div
+    was visible and not hidden by the nav bar. */
+  padding-top: 90px;
+}
+
+.last { /* This changed the color of the last three div elements. */
+  background-color: red;
+}
